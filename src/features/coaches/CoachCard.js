@@ -1,20 +1,16 @@
-import{Card, CardImg, CardImgOverlay, CardTitle} from 'reactstrap';
+import { Card, CardImg, CardImgOverlay, CardTitle } from 'reactstrap';
 
-const CoachCard = () => {
+const CoachCard = ({ coach }) => {
+    const { image, name } = coach;
     return (
-    <Card>
-            <CardImg 
-                width='25%'
-                src={props.coach.image}
-                alt={props.coach.name}
-            /> 
+        <Card>
+            <CardImg
+                width='50%' src={image} alt={name} />
             <CardImgOverlay>
-                <CardTitle>{props.coach.name}</CardTitle>
+                <CardTitle>{name}</CardTitle>
             </CardImgOverlay>
- </Card>
-);
-
+        </Card>
+    );
 };
-
 
 export default CoachCard;

@@ -1,9 +1,9 @@
-import reactLakeImg from '../assets/img/react-lake.jpg';
-import chromeRiverImg from '../assets/img/chrome-river.jpg';
-import breadCrumbImg from '../assets/img/breadcrumb-trail.jpg';
-import reduxWoodsImg from '../assets/img/redux-woods.jpg';
+import katyaProfile from '../assets/img/katyaProfile.jpg';
+import alexeiProfile from '../assets/img/katyaProfile.jpg';
+import errolProfile from '../assets/img/errolProfile.jpg';
+import jamesProfile from '../assets/img/jamesProfile.jpg';
 
-export const CAMPSITES = [
+export const COACHES = [
     {
         id: 0,
         name: 'Katya Gorbacheva',
