@@ -1,23 +1,20 @@
-import logo from './logo.svg';
+import React from 'react';
+import { Container, Navbar, NavbarBrand } from 'reactstrap';
+import TBLlogo from './app/assets/img/logo.png';
 import './App.css';
+import CoachCard from './features/campsites/CoachCard.js';
+import { COACHES } from './app/shared/COACHES';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar dark color='primary' sticky='top' expand='md'>
+               <Container>
+                    <NavbarBrand href='/'>
+                        <img src={TBLlogo} alt='totalbodylab logo' />
+                    </NavbarBrand>
+                </Container>
+            </Navbar>
     </div>
   );
 }
