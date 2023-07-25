@@ -1,14 +1,27 @@
 import "./App.css";
-import CoachesList from "./features/coaches/CoachesList.js";
+import { Route, Routes } from "react-router-dom";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import CoachesPage from "./pages/CoachesPage";
+import CalendarPage from "./pages/CalendarPage";
+import ProgramsPage from "./pages/ProgramsPage";
+
 
 
 function App() {
   return (
     <div className="App">
       <Header />
-        <CoachesList />
+      <Routes>
+        <Route path='/' element={<HomePage />} />
+        <Route path='coaches' element={<CoachesPage />} />
+        <Route path='calendar' element={<CalendarPage />} />
+        <Route
+          path='programs'
+          element={<ProgramsPage />}
+        />
+            </Routes>
+
       <Footer />
     </div>
   );
