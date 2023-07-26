@@ -13,13 +13,13 @@ const Footer = () => {
                                 <Link to='/'>Home</Link>
                             </li>
                             <li>
-                                <Link to='/directory'>Directory</Link>
+                                <Link to='/calendar'>Calendar</Link>
                             </li>
                             <li>
-                                <Link to='/about'>About</Link>
+                                <Link to='/coaches'>Coaches</Link>
                             </li>
                             <li>
-                                <Link to='/contact'>Contact</Link>
+                                <Link to='/programs'>Programs</Link>
                             </li>
                         </ul>
                     </Col>
@@ -56,7 +56,7 @@ const Footer = () => {
                             className='btn btn-link'
                             href='tel:+12065551234'
                         >
-                            <i className='fa fa-phone' /> 1-206-555-1234
+                            <i className='fa fa-phone' /> 1-206-867-5309
                         </a>
                         <br />
                         <a
@@ -64,7 +64,7 @@ const Footer = () => {
                             className='btn btn-link'
                             href='mailto:notreal@notreal.co'
                         >
-                            <i className='fa fa-envelope-o' /> campsites@nucamp.co
+                            <i className='fa fa-envelope-o' /> Coaches@totalbodylab.com
                         </a>
                     </Col>
                 </Row>
