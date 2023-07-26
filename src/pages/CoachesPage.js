@@ -1,13 +1,13 @@
 import { Container } from "reactstrap";
-import Header from "../components/Header";
+// import Header from "../components/Header";
 import SubHeader from "../components/SubHeader";
 
 const CoachesPage = () => {
     return (
         <Container>
-            <SubhHeader >
+            <SubHeader >
 
-            </SubhHeader>
+            </SubHeader>
         </Container>
     );
 };
