@@ -4,7 +4,6 @@ import {selectAllCoaches} from './coachesSlice';
 
 const CoachesList = () => {
     const coaches = selectAllCoaches()
-    console.log('got yall working')
 return (
     <Row className="ms-auto">
     {coaches.map((coach) => {
