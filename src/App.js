@@ -1,9 +1,11 @@
 import './App.css';
-import CoachesList from './features/coaches/CoachesList.js';
 import { Route, Routes } from "react-router-dom";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import HomePage from "./pages/HomePage";
+import CoachesPage from './pages/CoachesPage';
+import ProgramsPage from './pages/ProgramsPage';
+import CalendarPage from './pages/CalendarPage';
 // import CoachesPage from "./pages/CoachesPage";
 // import CalendarPage from "./pages/CalendarPage";
 // import ProgramsPage from "./pages/ProgramsPage";
@@ -16,8 +18,10 @@ function App() {
       <Header />
       <Routes>
         <Route path='/' element={<HomePage />} />
-        <Route path='coaches' element={<CoachesList />} />
-        
+        <Route path='coach' element={<CoachesPage />} />
+        <Route path='programs' element={<ProgramsPage />} />
+        <Route path='calendar' element={<CalendarPage />} />
+
         {/* <Route path='calendar' element={<CalendarPage />} /> */}
         {/* <Route path='programs' element={<ProgramsPage />} /> */}
       </Routes>
