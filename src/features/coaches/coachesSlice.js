@@ -9,5 +9,5 @@ export const selectCoachById = (id) => {
 };
 
 export const selectFeaturedCoach = () => {
-    return COACHES.find((coach) => coach.featured); // ===true but that's redundant
+    return COACHES.find((coach) => coach.featured);
 };

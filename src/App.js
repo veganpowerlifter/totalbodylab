@@ -5,12 +5,8 @@ import Footer from "./components/Footer";
 import HomePage from "./pages/HomePage";
 import CoachesPage from './pages/CoachesPage';
 import ProgramsPage from './pages/ProgramsPage';
-import CalendarPage from './pages/CalendarPage';
-// import CoachesPage from "./pages/CoachesPage";
 // import CalendarPage from "./pages/CalendarPage";
-// import ProgramsPage from "./pages/ProgramsPage";
-
-
+import ContactPage from "./pages/ContactPage";
 
 function App() {
   return (
@@ -20,8 +16,8 @@ function App() {
         <Route path='/' element={<HomePage />} />
         <Route path='coach' element={<CoachesPage />} />
         <Route path='programs' element={<ProgramsPage />} />
-        <Route path='calendar' element={<CalendarPage />} />
-
+        <Route path='contact' element={<ContactPage />} />
+        {/* <Route path='contact' element={<ContactPage />} /> */}
         {/* <Route path='calendar' element={<CalendarPage />} /> */}
         {/* <Route path='programs' element={<ProgramsPage />} /> */}
       </Routes>
