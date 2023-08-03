@@ -15,4 +15,4 @@ const CoachDetail = ( {coach} ) => {
     );
 };
 
-export default CampsiteDetail;
+export default CoachDetail;
